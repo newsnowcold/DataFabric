@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">coreui-free-angular-admin-template</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">5.6.24</PackageJsonVersion>
+    <PackageJsonCopyright Condition="$(PackageJsonCopyright) == ''">Copyright 2026 creativeLabs Łukasz Holeczek</PackageJsonCopyright>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">MIT</PackageJsonLicense>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''">The CoreUI Team (https://github.com/orgs/coreui/people) and contributors</PackageJsonAuthor>
+    <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://coreui.io/angular</PackageJsonHomepage>
+    <PackageJsonConfigTheme Condition="$(PackageJsonConfigTheme) == ''">default</PackageJsonConfigTheme>
+    <PackageJsonConfigCoreuiLibraryShortVersion Condition="$(PackageJsonConfigCoreuiLibraryShortVersion) == ''">5.6</PackageJsonConfigCoreuiLibraryShortVersion>
+    <PackageJsonConfigCoreuiLibraryDocsUrl Condition="$(PackageJsonConfigCoreuiLibraryDocsUrl) == ''">https://coreui.io/angular/docs/</PackageJsonConfigCoreuiLibraryDocsUrl>
+    <PackageJsonScriptsNg Condition="$(PackageJsonScriptsNg) == ''">ng</PackageJsonScriptsNg>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">ng serve -o</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">ng build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsWatch Condition="$(PackageJsonScriptsWatch) == ''">ng build --watch --configuration development</PackageJsonScriptsWatch>
+    <PackageJsonScriptsPrebuild Condition="$(PackageJsonScriptsPrebuild) == ''">ng test --watch=false</PackageJsonScriptsPrebuild>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">ng test</PackageJsonScriptsTest>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonDependenciesAngularAnimations Condition="$(PackageJsonDependenciesAngularAnimations) == ''">^21.2.14</PackageJsonDependenciesAngularAnimations>
+    <PackageJsonDependenciesAngularCdk Condition="$(PackageJsonDependenciesAngularCdk) == ''">^21.2.12</PackageJsonDependenciesAngularCdk>
+    <PackageJsonDependenciesAngularCommon Condition="$(PackageJsonDependenciesAngularCommon) == ''">^21.2.14</PackageJsonDependenciesAngularCommon>
+    <PackageJsonDependenciesAngularCompiler Condition="$(PackageJsonDependenciesAngularCompiler) == ''">^21.2.14</PackageJsonDependenciesAngularCompiler>
+    <PackageJsonDependenciesAngularCore Condition="$(PackageJsonDependenciesAngularCore) == ''">^21.2.14</PackageJsonDependenciesAngularCore>
+    <PackageJsonDependenciesAngularForms Condition="$(PackageJsonDependenciesAngularForms) == ''">^21.2.14</PackageJsonDependenciesAngularForms>
+    <PackageJsonDependenciesAngularLanguageService Condition="$(PackageJsonDependenciesAngularLanguageService) == ''">^21.2.14</PackageJsonDependenciesAngularLanguageService>
+    <PackageJsonDependenciesAngularLocalize Condition="$(PackageJsonDependenciesAngularLocalize) == ''">^21.2.14</PackageJsonDependenciesAngularLocalize>
+    <PackageJsonDependenciesAngularPlatformBrowser Condition="$(PackageJsonDependenciesAngularPlatformBrowser) == ''">^21.2.14</PackageJsonDependenciesAngularPlatformBrowser>
+    <PackageJsonDependenciesAngularPlatformBrowserDynamic Condition="$(PackageJsonDependenciesAngularPlatformBrowserDynamic) == ''">^21.2.14</PackageJsonDependenciesAngularPlatformBrowserDynamic>
+    <PackageJsonDependenciesAngularRouter Condition="$(PackageJsonDependenciesAngularRouter) == ''">^21.2.14</PackageJsonDependenciesAngularRouter>
+    <PackageJsonDependenciesCoreuiAngular Condition="$(PackageJsonDependenciesCoreuiAngular) == ''">~5.6.24</PackageJsonDependenciesCoreuiAngular>
+    <PackageJsonDependenciesCoreuiAngularChartjs Condition="$(PackageJsonDependenciesCoreuiAngularChartjs) == ''">~5.6.24</PackageJsonDependenciesCoreuiAngularChartjs>
+    <PackageJsonDependenciesCoreuiChartjs Condition="$(PackageJsonDependenciesCoreuiChartjs) == ''">^4.2.0</PackageJsonDependenciesCoreuiChartjs>
+    <PackageJsonDependenciesCoreuiCoreui Condition="$(PackageJsonDependenciesCoreuiCoreui) == ''">~5.7.1</PackageJsonDependenciesCoreuiCoreui>
+    <PackageJsonDependenciesCoreuiIcons Condition="$(PackageJsonDependenciesCoreuiIcons) == ''">^3.1.0</PackageJsonDependenciesCoreuiIcons>
+    <PackageJsonDependenciesCoreuiIconsAngular Condition="$(PackageJsonDependenciesCoreuiIconsAngular) == ''">~5.6.24</PackageJsonDependenciesCoreuiIconsAngular>
+    <PackageJsonDependenciesCoreuiUtils Condition="$(PackageJsonDependenciesCoreuiUtils) == ''">^2.0.2</PackageJsonDependenciesCoreuiUtils>
+    <PackageJsonDependenciesChartJs Condition="$(PackageJsonDependenciesChartJs) == ''">^4.5.1</PackageJsonDependenciesChartJs>
+    <PackageJsonDependenciesNgxScrollbar Condition="$(PackageJsonDependenciesNgxScrollbar) == ''">^13.0.3</PackageJsonDependenciesNgxScrollbar>
+    <PackageJsonDependenciesRxjs Condition="$(PackageJsonDependenciesRxjs) == ''">~7.8.2</PackageJsonDependenciesRxjs>
+    <PackageJsonDependenciesTslib Condition="$(PackageJsonDependenciesTslib) == ''">^2.8.1</PackageJsonDependenciesTslib>
+    <PackageJsonDependenciesZoneJs Condition="$(PackageJsonDependenciesZoneJs) == ''">~0.16.2</PackageJsonDependenciesZoneJs>
+    <PackageJsonDevdependenciesAngularBuild Condition="$(PackageJsonDevdependenciesAngularBuild) == ''">^21.2.12</PackageJsonDevdependenciesAngularBuild>
+    <PackageJsonDevdependenciesAngularCli Condition="$(PackageJsonDevdependenciesAngularCli) == ''">^21.2.12</PackageJsonDevdependenciesAngularCli>
+    <PackageJsonDevdependenciesAngularCompilerCli Condition="$(PackageJsonDevdependenciesAngularCompilerCli) == ''">^21.2.14</PackageJsonDevdependenciesAngularCompilerCli>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^24.12.4</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesVitestBrowserPlaywright Condition="$(PackageJsonDevdependenciesVitestBrowserPlaywright) == ''">^4.1.7</PackageJsonDevdependenciesVitestBrowserPlaywright>
+    <PackageJsonDevdependenciesJsdom Condition="$(PackageJsonDevdependenciesJsdom) == ''">^29.1.1</PackageJsonDevdependenciesJsdom>
+    <PackageJsonDevdependenciesPlaywright Condition="$(PackageJsonDevdependenciesPlaywright) == ''">^1.60.0</PackageJsonDevdependenciesPlaywright>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">~5.9.3</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDevdependenciesVitest Condition="$(PackageJsonDevdependenciesVitest) == ''">^4.1.7</PackageJsonDevdependenciesVitest>
+    <PackageJsonEnginesNode Condition="$(PackageJsonEnginesNode) == ''">^20.19.0 || ^22.12.0 || ^24.0.0</PackageJsonEnginesNode>
+    <PackageJsonEnginesNpm Condition="$(PackageJsonEnginesNpm) == ''">&gt;=10</PackageJsonEnginesNpm>
+    <PackageJsonBugsUrl Condition="$(PackageJsonBugsUrl) == ''">https://github.com/coreui/coreui-free-angular-admin-template/issues</PackageJsonBugsUrl>
+    <PackageJsonRepositoryType Condition="$(PackageJsonRepositoryType) == ''">git</PackageJsonRepositoryType>
+    <PackageJsonRepositoryUrl Condition="$(PackageJsonRepositoryUrl) == ''">git+https://github.com/coreui/coreui-free-angular-admin-template.git</PackageJsonRepositoryUrl>
+  </PropertyGroup>
+</Project>
