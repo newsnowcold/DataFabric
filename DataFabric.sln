@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11819.183 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFabric.Domain", "DataFabric.Domain\DataFabric.Domain.csproj", "{54403B4F-0BA1-418C-8645-E74F1C06D464}"
 EndProject
@@ -10,6 +10,29 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFabric.Application", "DataFabric.Application\DataFabric.Application.csproj", "{4108008A-A431-4D47-A035-4DD15C7EDE60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFabric.Api", "DataFabric.Api\DataFabric.Api.csproj", "{8DC08BCF-A212-7353-D933-A4A49B0E0843}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "datafabric.client", "datafabric.client\", "{6F1A2B3C-4D5E-4789-ABCD-EF0123456789}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65414"
+		Debug.AspNetCompiler.PhysicalPath = "datafabric.client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65414\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65414"
+		Release.AspNetCompiler.PhysicalPath = "datafabric.client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65414\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65414"
+		SlnRelativePath = "datafabric.client\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFabric.DevLauncher", "DataFabric.DevLauncher\DataFabric.DevLauncher.csproj", "{B3C9A1D2-8E4F-4A9B-9C2D-0F0A1B2C3D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +56,14 @@ Global
 		{8DC08BCF-A212-7353-D933-A4A49B0E0843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC08BCF-A212-7353-D933-A4A49B0E0843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC08BCF-A212-7353-D933-A4A49B0E0843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1A2B3C-4D5E-4789-ABCD-EF0123456789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1A2B3C-4D5E-4789-ABCD-EF0123456789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1A2B3C-4D5E-4789-ABCD-EF0123456789}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1A2B3C-4D5E-4789-ABCD-EF0123456789}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B3C9A1D2-8E4F-4A9B-9C2D-0F0A1B2C3D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C9A1D2-8E4F-4A9B-9C2D-0F0A1B2C3D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C9A1D2-8E4F-4A9B-9C2D-0F0A1B2C3D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C9A1D2-8E4F-4A9B-9C2D-0F0A1B2C3D4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
