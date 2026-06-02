@@ -1,0 +1,6 @@
+@DataFabric.Server_HostAddress = http://localhost:5157
+
+GET {{DataFabric.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
